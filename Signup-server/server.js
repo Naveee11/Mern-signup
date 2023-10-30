@@ -6,7 +6,7 @@ const crypto = require('crypto');
 const keyBytes = 32; // 256 bits
 
 const secretKey = crypto.randomBytes(keyBytes).toString('hex');
-console.log('Generated Secret Key:', secretKey);
+
 
 app.use(cors());
 
